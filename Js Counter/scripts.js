@@ -3,7 +3,7 @@ let curValue = 0;
 
 const btnDecrement = document.querySelector('#decrement');
 const btnReset = document.querySelector('#reset');
-const btnIncrement = document.querySelector('#increment');
+const btnIncrement = document.getElementById('increment');
 
 btnIncrement.addEventListener('click', () => {
     curValue++;
